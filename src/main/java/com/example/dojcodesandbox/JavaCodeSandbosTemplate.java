@@ -50,12 +50,5 @@ public class JavaCodeSandbosTemplate implements CodeSandbox{
     }
 
 
-    /**
-     * 2.编译用户代码
-     * @param userCodeFile
-     * @return
-     */
-    public ExecuteMessage compileFile(File userCodeFile){
-        String compileCmd = String.format("javac -encoding UTF-8 %s", userCodeFile.getAbsolutePath());
-    }
+
 }
