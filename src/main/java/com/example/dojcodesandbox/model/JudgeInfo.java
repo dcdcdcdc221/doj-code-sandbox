@@ -1,5 +1,6 @@
 package com.example.dojcodesandbox.model;
 
+
 import lombok.Data;
 
 /**
