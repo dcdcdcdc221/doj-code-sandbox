@@ -1,13 +1,10 @@
 package com.example.dojcodesandbox;
 
 import cn.hutool.core.io.FileUtil;
-import com.example.dojcodesandbox.model.ExecuteCodeRequest;
 import com.example.dojcodesandbox.model.ExecuteCodeResponse;
-import com.example.dojcodesandbox.model.ExecuteMessage;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.File;
-import java.util.Properties;
 import java.util.UUID;
 
 
@@ -15,13 +12,13 @@ import java.util.UUID;
  * Java代码沙箱实现
  */
 @Slf4j
-public class JavaCodeSandbosTemplate implements CodeSandbox{
+public class JavaCodeSandboxTemplate implements CodeSandbox{
     private static final String GLOBAL_CODE_DIR_NAME = "tmpCode";
 
     private static final String GLOBAL_JAVA_CLASS_NAME = "Main.java";
 
     @Override
-    public ExecuteCodeResponse executeCode(ExecuteCodeRequest request) {
+    public ExecuteCodeResponse executeCode(ExecuteCodeResponse executeCodeResponse) {
         return null;
     }
 
